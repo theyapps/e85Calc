@@ -53,16 +53,16 @@ public class MainActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		edt_e85MPG 		= (EditText)findViewById(R.id.e85MPG);
-		edt_gasMPG 		= (EditText)findViewById(R.id.gasMPG);
-		edt_e85Price 	= (EditText)findViewById(R.id.e85Price);
-		edt_gasPrice 	= (EditText)findViewById(R.id.gasPrice);
-		txt_result 		= (TextView)findViewById(R.id.result);
+		edt_e85MPG		= (EditText)findViewById(R.id.e85MPG);
+		edt_gasMPG		= (EditText)findViewById(R.id.gasMPG);
+		edt_e85Price	= (EditText)findViewById(R.id.e85Price);
+		edt_gasPrice	= (EditText)findViewById(R.id.gasPrice);
+		txt_result		= (TextView)findViewById(R.id.result);
 		btn_submit		= (Button)  findViewById(R.id.submit);
 		btn_reset		= (Button)	findViewById(R.id.reset);
 		
-		settings 	= getSharedPreferences("user-pref", MODE_PRIVATE);
-		//editor 		= settings.edit();
+		settings		= getSharedPreferences("user-pref", MODE_PRIVATE);
+		//editor		= settings.edit();
 		
 		// BUTTON LISTENERS
 		btn_submit.setOnClickListener(new OnClickListener() 
@@ -91,9 +91,9 @@ public class MainActivity extends Activity
 	protected void onResume() 
 	{
 		super.onResume();
-		i_distUnit  = settings.getInt("distUnit",  0);
-		i_fuelUnit  = settings.getInt("fuelUnit",  0);
-		i_currency 	= settings.getInt("currency",  0);
+		i_distUnit	= settings.getInt("distUnit",  0);
+		i_fuelUnit	= settings.getInt("fuelUnit",  0);
+		i_currency	= settings.getInt("currency",  0);
 		
 		edt_e85MPG.setHint("E-85 " + AppGlobal.distUnitString[i_distUnit] + "'s per " + AppGlobal.fuelUnitString[i_fuelUnit]);
 		edt_gasMPG.setHint("Gas " +  AppGlobal.distUnitString[i_distUnit] + "'s per " + AppGlobal.fuelUnitString[i_fuelUnit]);
