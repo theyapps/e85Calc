@@ -1,0 +1,23 @@
+Version 1.5.1 - May 13, 2013
+- Corrected typo on result printout.
+
+Version 1.5 - May 8, 2013
+- Added some internationalization settings. (Gallon or Liters) and (Miles or Kilometers)
+- Added cost breakdown of e-85 vs. gasoline
+
+Version 1.4 - May 4, 2013
+- Added some coloring.
+
+Version 1.3 - May 4, 2013
+- Added about screen.
+
+Version 1.2 - May 4, 2013
+- Added reset button.
+- Changed appearance to be more in line with Holo guidelines.
+
+Version 1.1 - May 3, 2013
+- Reworked Layout
+- Keyboard lowers automatically when calculate is pressed.
+
+Version 1.0 - May 3, 2013
+- First Release
