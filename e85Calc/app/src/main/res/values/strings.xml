@@ -1,3 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">e85Calc</string>
+
+    <string name="app_name">e-85 Calculator</string>
+    <string name="gas_mpg">Gas MPG</string>
+    <string name="e85_mpg">E-85 MPG</string>
+    <string name="gas_price">Gas Price</string>
+    <string name="e85_price">E-85 Price</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="result_initial">Fill out the info above then click calculate to determine if gas or E85 is the best deal.</string>
+    <string name="result_e85">E85 is the best choice.</string>
+    <string name="result_gas">Gas is the best choice.</string>
+    <string name="result_nodiff">There is no difference between e-85 and gas.</string>
+    <string name="result_error">There has been an error, you must fill in all fields.</string>
+
+    <string name="about_title">About e-85 Calculator</string>
+    <string name="about_title_condensed">About</string>
+    <string name="about_version_lbl">Version:</string>
+    <string name="about_version">[version string placeholder]</string>
+    <string name="about_author_lbl">Created by:</string>
+    <string name="about_author">Ryan Boykin</string>
+    <string name="about_purpose_lbl">Purpose:</string>
+    <string name="about_purpose">I am a Computer Science major at UT Dallas. This is an Android App that I have created in an effort to learn Android programing. It evaluates e85 and gas prices to determine best deal. It is available free of use to anyone who finds it useful, if you do enjoy it please to provide me with feedback via Google Play.</string>
+    <string name="about_contact_lbl">Contact:</string>
+    <string name="about_contact">ryancb06@gmail.com</string>
+    <string name="about_website_lbl">Website:</string>
+    <string name="about_website">http://www.theyapps.com/</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_save">Save</string>
+
+    <string name="dist_unit_prompt">Choose Units of Distance</string>
+    <string-array name="dist_unit_arrays">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+
+    <string name="fuel_unit_prompt">Choose Units of Fuel Quanity</string>
+    <string-array name="fuel_unit_arrays">
+        <item>Gallons</item>
+        <item>Liters</item>
+    </string-array>
+
+    <string name="currency_prompt">Choose Currency</string>
+    <string-array name="currency_arrays">
+        <item>Dollars</item>
+        <item>Euros</item>
+    </string-array>
+
 </resources>
