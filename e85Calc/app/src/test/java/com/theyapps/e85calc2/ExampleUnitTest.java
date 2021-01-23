@@ -1,4 +1,4 @@
-package com.theyapps.e85calc;
+package com.theyapps.e85calc2;
 
 import org.junit.Test;
 

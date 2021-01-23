@@ -9,7 +9,7 @@
  * 
  **********************************************************************/
 
-package com.theyapps.e85calc;
+package com.theyapps.e85calc2;
 
 public class AppGlobal 
 {
